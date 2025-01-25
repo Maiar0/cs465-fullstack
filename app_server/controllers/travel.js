@@ -1,10 +1,12 @@
+var fs = require('fs');
+var trips = JSON.parse(fs.readFileSync('./data/trips.json','utf8'));
+
 /* GET travel view */
 const travel = (req, res) => {                    
-    res.render('travel', { title: 'Travlr Getaways' ,
-      active_nav: {
-        travel: true
-      } 
-    });          
+    res.render(
+      'travel', 
+      { title: 'Travlr Getaways' , trips , active_nav: { travel: true } }
+    );          
   };
   module.exports = {                               
    travel                                           
