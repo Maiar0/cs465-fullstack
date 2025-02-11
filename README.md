@@ -1,2 +1,48 @@
-# cs465-fullstack
-cs-465 Full Stack Development with MEAN
+Full Stack Web Application - CS465
+Overview
+This project is a full stack web application that serves both customer and administrative sides. The final iteration focused on implementing secure authentication for admin login to enhance security. This README reflects on the architecture, functionality, testing, and professional growth gained through the development process.
+
+📌 Architecture
+Frontend Development
+This project utilized multiple frontend approaches:
+
+Express with HTML & JavaScript: Provided a simple server-side rendering method for rendering static and dynamic pages.
+Single Page Application (SPA) with React: Improved user experience by reducing page reloads, enabling faster, seamless interactions.
+While Express templates are lightweight and simple, SPA architecture offers a more interactive experience and better scalability. The choice depended on performance, complexity, and responsiveness requirements.
+
+Backend & Database
+The backend was built using Node.js with Express and a NoSQL MongoDB database. The choice of MongoDB was due to:
+
+Scalability: NoSQL databases handle large datasets efficiently.
+Flexibility: JSON-like documents allow easy integration with frontend components.
+Speed: Fast read/write operations support real-time interactions.
+⚙️ Functionality
+JSON vs JavaScript
+JavaScript is a programming language used to build the frontend logic.
+JSON (JavaScript Object Notation) is a lightweight data format used to exchange data between the frontend and backend.
+JSON played a crucial role in sending and receiving API requests between the client-side React application and the Express backend, ensuring smooth communication.
+
+Code Refactoring & Reusability
+Throughout development, several improvements were made to enhance functionality and efficiency:
+
+Refactored API calls: Reduced redundancy in data retrieval by centralizing requests.
+Modular UI Components: Created reusable React components for forms, buttons, and navigation, improving maintainability.
+Optimized Authentication Flow: Ensured secure login sessions by implementing token-based authentication (JWT).
+These enhancements improved code clarity, performance, and reusability across different parts of the application.
+
+🛠️ Testing
+API Testing & Security Challenges
+Testing involved validating API endpoints, ensuring data integrity, and handling authentication mechanisms securely. Key considerations included:
+
+Methods & Endpoints:
+
+GET: Retrieve data (e.g., fetching user details).
+POST: Send data (e.g., submitting login credentials).
+PUT/PATCH: Update existing data (e.g., modifying user roles).
+DELETE: Remove records securely.
+Security Measures:
+
+Token-based Authentication (JWT): Secured admin access.
+Role-based Access Control (RBAC): Prevented unauthorized users from accessing admin functionalities.
+CORS & Input Validation: Protected against cross-site attacks and injection vulnerabilities.
+Testing was conducted using Postman, Jest, and manual API validation to ensure reliable data flow between the frontend and backend.
