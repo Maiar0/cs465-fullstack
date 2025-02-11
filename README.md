@@ -66,7 +66,7 @@ Testing was conducted using **Postman**, **Jest**, and manual API validation to 
 This course has significantly contributed to my **professional growth** by reinforcing key **full stack development** concepts. Through this project, I have:  
 
 - **Strengthened my expertise** in Angular, Express, and MongoDB.  
-- **Mastered secure authentication techniques** (JWT, hashing, and authorization layers).  
+- **Increased secure authentication techniques** (JWT, hashing, and authorization layers).  
 - **Enhanced my ability to build scalable APIs** and **optimize frontend performance**.  
 - **Gained hands-on experience in debugging** and **testing APIs effectively**.  
 
