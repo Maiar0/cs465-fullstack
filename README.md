@@ -8,12 +8,11 @@ This project is a **full stack web application** that serves both **customer** a
 ## 📌 Architecture  
 
 ### Frontend Development  
-This project utilized multiple frontend approaches:  
+The frontend was developed using **Angular**, a TypeScript-based **Single Page Application (SPA) framework**. Angular was chosen for its:  
 
-- **Express with HTML & JavaScript**: Provided a simple **server-side** rendering method for rendering static and dynamic pages.  
-- **Single Page Application (SPA) with React**: Improved user experience by reducing page reloads, enabling **faster, seamless** interactions.  
-
-While Express templates are **lightweight and simple**, SPA architecture offers a **more interactive** experience and **better scalability**. The choice depended on performance, complexity, and responsiveness requirements.  
+- **Component-based architecture**, making UI development modular and reusable.  
+- **Built-in dependency injection**, simplifying service management.  
+- **Powerful routing and state management**, ensuring smooth navigation between views.  
 
 ### Backend & Database  
 The backend was built using **Node.js with Express** and a **NoSQL MongoDB database**. The choice of MongoDB was due to:  
@@ -30,12 +29,12 @@ The backend was built using **Node.js with Express** and a **NoSQL MongoDB datab
 - **JavaScript** is a programming language used to build the frontend logic.  
 - **JSON (JavaScript Object Notation)** is a **lightweight data format** used to exchange data between the **frontend** and **backend**.  
 
-JSON played a crucial role in **sending and receiving API requests** between the client-side React application and the Express backend, ensuring smooth communication.  
+JSON played a crucial role in **sending and receiving API requests** between the client-side Angular application and the Express backend, ensuring smooth communication.  
 
 ### Code Refactoring & Reusability  
 Throughout development, several improvements were made to **enhance functionality** and **efficiency**:  
-- **Refactored API calls**: Reduced redundancy in data retrieval by centralizing requests.  
-- **Modular UI Components**: Created reusable React components for **forms, buttons, and navigation**, improving maintainability.  
+- **Refactored API calls**: Centralized HTTP requests using Angular services.  
+- **Modular UI Components**: Created reusable components for **forms, buttons, and navigation**, improving maintainability.  
 - **Optimized Authentication Flow**: Ensured **secure login sessions** by implementing **token-based authentication** (JWT).  
 
 These enhancements improved **code clarity**, **performance**, and **reusability** across different parts of the application.  
@@ -66,7 +65,7 @@ Testing was conducted using **Postman**, **Jest**, and manual API validation to 
 
 This course has significantly contributed to my **professional growth** by reinforcing key **full stack development** concepts. Through this project, I have:  
 
-- **Strengthened my expertise** in React, Express, and MongoDB.  
+- **Strengthened my expertise** in Angular, Express, and MongoDB.  
 - **Mastered secure authentication techniques** (JWT, hashing, and authorization layers).  
 - **Enhanced my ability to build scalable APIs** and **optimize frontend performance**.  
 - **Gained hands-on experience in debugging** and **testing APIs effectively**.  
