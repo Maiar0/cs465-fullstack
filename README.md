@@ -35,7 +35,7 @@ JSON played a crucial role in **sending and receiving API requests** between the
 Throughout development, several improvements were made to **enhance functionality** and **efficiency**:  
 - **Refactored API calls**: Centralized HTTP requests using Angular services.  
 - **Modular UI Components**: Created reusable components for **forms, buttons, and navigation**, improving maintainability.  
-- **Optimized Authentication Flow**: Ensured **secure login sessions** by implementing **token-based authentication** (JWT).  
+- **Optimized Authentication Flow**: Implemented **JWT authentication** for secure login sessions.  
 
 These enhancements improved **code clarity**, **performance**, and **reusability** across different parts of the application.  
 
@@ -43,21 +43,20 @@ These enhancements improved **code clarity**, **performance**, and **reusability
 
 ## 🛠️ Testing  
 
-### API Testing & Security Challenges  
+### API Testing & Security  
 Testing involved validating **API endpoints**, ensuring data integrity, and handling authentication mechanisms securely. Key considerations included:  
 
 - **Methods & Endpoints**:  
   - **GET**: Retrieve data (e.g., fetching user details).  
   - **POST**: Send data (e.g., submitting login credentials).  
-  - **PUT/PATCH**: Update existing data (e.g., modifying user roles).  
+  - **PUT/PATCH**: Update existing data (e.g., modifying trip details).  
   - **DELETE**: Remove records securely.  
 
-- **Security Measures**:  
-  - **Token-based Authentication (JWT)**: Secured admin access.  
-  - **Role-based Access Control (RBAC)**: Prevented unauthorized users from accessing admin functionalities.  
-  - **CORS & Input Validation**: Protected against **cross-site attacks** and **injection vulnerabilities**.  
+- **Authentication & Security Measures**:  
+  - **Token-based Authentication (JWT)**: Ensured that only authenticated users could access protected API routes.  
+  - **Input Validation & CORS**: Prevented **cross-site attacks** and **injection vulnerabilities**.  
 
-Testing was conducted using **Postman**, **Jest**, and manual API validation to ensure **reliable data flow** between the frontend and backend.  
+Testing was conducted using **Postman** for API validation, ensuring **secure data flow** between the frontend and backend.  
 
 ---
 
@@ -66,7 +65,7 @@ Testing was conducted using **Postman**, **Jest**, and manual API validation to 
 This course has significantly contributed to my **professional growth** by reinforcing key **full stack development** concepts. Through this project, I have:  
 
 - **Strengthened my expertise** in Angular, Express, and MongoDB.  
-- **Increased secure authentication techniques** (JWT, hashing, and authorization layers).  
+- **Mastered secure authentication techniques** (JWT and API security).  
 - **Enhanced my ability to build scalable APIs** and **optimize frontend performance**.  
 - **Gained hands-on experience in debugging** and **testing APIs effectively**.  
 
