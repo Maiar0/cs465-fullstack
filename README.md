@@ -1,6 +1,5 @@
-Here is your **GitHub README.md** file, formatted correctly for **direct copy-paste** into your repository.
 
-```markdown
+
 # **Full Stack Web Application – Professional Overview**  
 
 ## 📌 Overview  
