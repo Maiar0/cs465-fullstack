@@ -26,7 +26,6 @@ This repository contains a **Node.js + Express API backend** and an **Angular Si
 ### **Development & Testing**
 - **Postman** – API endpoint testing  
 - **Git & GitHub** – Version control  
-- **Docker** – Optional deployment support  
 
 ---
 
